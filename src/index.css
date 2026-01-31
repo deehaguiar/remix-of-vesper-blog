@@ -8,8 +8,8 @@
 
 @layer base {
   :root {
-    /* Base Colors - Orange Theme */
-    --background: 30 100% 50%; /* Orange */
+    /* Base Colors - Blue Theme */
+    --background: 210 100% 50%; /* Blue */
     --foreground: 0 0% 0%; /* Pure black */
 
     /* Card Colors */
