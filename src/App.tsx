@@ -3,8 +3,10 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { RouterProvider, createBrowserRouter, ScrollRestoration, Outlet } from "react-router-dom";
+import { AuthProvider } from "@/hooks/useAuth";
 import Index from "./pages/Index";
 import Article from "./pages/Article";
+import Auth from "./pages/Auth";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -27,6 +29,10 @@ const router = createBrowserRouter([
         element: <Index />,
       },
       {
+        path: "/auth",
+        element: <Auth />,
+      },
+      {
         path: "/article/:slug",
         element: <Article />,
       },
@@ -40,11 +46,13 @@ const router = createBrowserRouter([
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <RouterProvider router={router} />
-    </TooltipProvider>
+    <AuthProvider>
+      <TooltipProvider>
+        <Toaster />
+        <Sonner />
+        <RouterProvider router={router} />
+      </TooltipProvider>
+    </AuthProvider>
   </QueryClientProvider>
 );
 
