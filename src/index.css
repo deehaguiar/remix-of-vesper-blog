@@ -8,8 +8,8 @@
 
 @layer base {
   :root {
-    /* Base Colors - Cool Blue Theme */
-    --background: 210 40% 96%; /* Light blue-gray */
+    /* Base Colors - Orange Theme */
+    --background: 30 100% 50%; /* Orange */
     --foreground: 0 0% 0%; /* Pure black */
 
     /* Card Colors */
@@ -29,6 +29,7 @@
     /* Accent Colors */
     --accent-red: 30 100% 50%; /* #ff8000 - Orange */
     --accent-pink: 332 100% 73%; /* #ff75ba */
+    --accent-yellow: 50 100% 50%; /* Yellow */
 
     /* Vibrant Card Backgrounds */
     --card-yellow: 45 91% 62%; /* #F6C744 */
