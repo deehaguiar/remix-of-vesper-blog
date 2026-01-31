@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { useAuth } from "@/hooks/useAuth";
 import Button from "./Button";
+import logo from "@/assets/logo.png";
 
 const Header = () => {
   const { user, loading, signOut } = useAuth();
@@ -10,8 +11,8 @@ const Header = () => {
       <div className="px-5 md:px-20 py-5 md:py-6">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="font-serif text-2xl md:text-3xl font-bold italic">
-            Lucas
+          <Link to="/">
+            <img src={logo} alt="Logo" className="h-8 md:h-10" />
           </Link>
 
           {/* Right Side Actions */}
