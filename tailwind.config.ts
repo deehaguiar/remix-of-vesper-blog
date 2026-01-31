@@ -44,6 +44,7 @@ export default {
         accent: {
           red: "hsl(var(--accent-red))",
           pink: "hsl(var(--accent-pink))",
+          yellow: "hsl(var(--accent-yellow))",
         },
         vibrant: {
           yellow: "hsl(var(--card-yellow))",
