@@ -133,7 +133,7 @@ const Auth = () => {
     <div className="min-h-screen bg-background flex items-center justify-center px-5">
       <div className="w-full max-w-md">
         <div className="text-center mb-10">
-          <h1 className="font-serif text-4xl md:text-5xl font-bold italic mb-4 animate-bounce text-accent-yellow">
+          <h1 className="font-serif text-4xl md:text-5xl font-bold italic mb-4 animate-bounce text-vibrant-mint">
             Sox
           </h1>
           <p className="text-foreground/70 font-serif text-lg">
