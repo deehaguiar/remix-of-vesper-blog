@@ -59,7 +59,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="mt-12 pt-6 border-t border-foreground/20">
           <p className="text-sm text-center md:text-left uppercase">
-            © 2025 Sox. ALL RIGHTS RESERVED.
+            © 2025 Deeh. ALL RIGHTS RESERVED.
           </p>
         </div>
       </div>
