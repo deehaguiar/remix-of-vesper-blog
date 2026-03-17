@@ -65,12 +65,12 @@
   }
 
   .dark {
-    --background: 120 10% 3%;
-    --foreground: 120 100% 50%;
-    --card: 120 10% 7%;
-    --card-foreground: 120 100% 50%;
-    --border: 120 100% 20%;
-    --input: 120 100% 20%;
+    --background: 200 30% 15%;
+    --foreground: 0 0% 96%;
+    --card: 200 25% 20%;
+    --card-foreground: 0 0% 96%;
+    --border: 200 20% 30%;
+    --input: 200 20% 30%;
   }
 }
 
