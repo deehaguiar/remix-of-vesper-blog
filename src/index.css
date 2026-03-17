@@ -9,8 +9,8 @@
 @layer base {
   :root {
     /* Base Colors - Kindred Warm Theme */
-    --background: 0 0% 0%; /* Black */
-    --foreground: 0 0% 96%; /* Off-white */
+    --background: 0 0% 100%; /* White */
+    --foreground: 0 0% 8%; /* Near-black */
 
     /* Card Colors */
     --card: 200 25% 25%;

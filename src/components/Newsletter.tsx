@@ -7,12 +7,12 @@ interface NewsletterProps {
 const Newsletter = ({ variant = "colorful" }: NewsletterProps) => {
   if (variant === "minimal") {
     return (
-      <section className="bg-black text-white py-16 md:py-20">
+      <section className="bg-foreground text-background py-16 md:py-20">
         <div className="px-5 md:px-20 max-w-4xl mx-auto">
           <NewsletterForm
             className="justify-center"
-            inputClassName="border-white text-white placeholder:text-white"
-            buttonClassName="border-white text-white hover:bg-white hover:text-black"
+            inputClassName="border-background text-background placeholder:text-background"
+            buttonClassName="border-background text-background hover:bg-background hover:text-foreground"
           />
         </div>
       </section>
