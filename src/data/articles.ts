@@ -17,7 +17,7 @@ export interface Article {
 export const articles: Article[] = [
   {
     id: "1",
-    title: "BUILDING A CAPSULE WARDROBE",
+    title: "Sox",
     excerpt: "Discover how to curate a versatile wardrobe with fewer pieces that work seamlessly together, creating endless styling possibilities while embracing sustainable fashion.",
     date: "March 19, 2025",
     image: "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?w=800&h=800&fit=crop",
