@@ -8,54 +8,54 @@
 
 @layer base {
   :root {
-    /* Base Colors - Matrix Theme */
-    --background: 120 10% 4%; /* Preto quase puro com tom verde */
-    --foreground: 120 100% 50%; /* Verde Matrix */
+    /* Base Colors - Kindred Warm Theme */
+    --background: 200 30% 20%; /* Dark teal/navy */
+    --foreground: 0 0% 96%; /* Off-white */
 
     /* Card Colors */
-    --card: 120 10% 8%;
-    --card-foreground: 120 100% 50%;
+    --card: 200 25% 25%;
+    --card-foreground: 0 0% 96%;
 
     /* Primary Action Colors */
-    --primary: 120 100% 35%; /* Verde escuro */
-    --primary-foreground: 120 10% 4%;
-    --primary-hover: 120 100% 45%; /* Verde mais claro no hover */
+    --primary: 168 40% 54%; /* Teal/mint */
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 168 45% 60%;
 
     /* Secondary Actions */
-    --secondary: 120 60% 20%; /* Verde escuro secundário */
-    --secondary-foreground: 120 100% 50%;
-    --secondary-hover: 120 60% 28%;
+    --secondary: 8 65% 62%; /* Coral/salmon */
+    --secondary-foreground: 0 0% 100%;
+    --secondary-hover: 8 70% 68%;
 
     /* Accent Colors */
-    --accent-red: 120 80% 15%; /* Verde escuro para footer */
-    --accent-pink: 120 100% 40%;
-    --accent-yellow: 120 100% 60%; /* Verde claro */
+    --accent-red: 200 35% 15%; /* Dark teal for footer */
+    --accent-pink: 8 65% 62%; /* Coral */
+    --accent-yellow: 45 80% 65%; /* Warm gold */
 
     /* Vibrant Card Backgrounds */
-    --card-yellow: 120 40% 15%;
-    --card-purple: 120 30% 12%;
-    --card-magenta: 120 50% 18%;
-    --card-blue: 120 35% 14%;
-    --card-coral: 120 45% 16%;
-    --card-mint: 120 100% 50%; /* Verde Matrix brilhante */
-    --card-orange: 120 55% 20%;
-    --card-lavender: 120 25% 10%;
+    --card-yellow: 45 50% 30%;
+    --card-purple: 260 25% 28%;
+    --card-magenta: 330 30% 30%;
+    --card-blue: 200 35% 28%;
+    --card-coral: 8 45% 35%;
+    --card-mint: 168 40% 45%;
+    --card-orange: 25 50% 35%;
+    --card-lavender: 240 20% 28%;
 
     /* Dark Mode Colors */
-    --dark-background: 120 10% 3%;
-    --dark-card: 120 10% 7%;
-    --dark-muted: 120 10% 15%;
+    --dark-background: 200 30% 15%;
+    --dark-card: 200 25% 20%;
+    --dark-muted: 200 20% 30%;
 
     /* Status Colors */
-    --success: 120 100% 40%;
-    --warning: 120 80% 50%;
-    --error: 0 84% 60%;
-    --info: 120 100% 45%;
+    --success: 168 50% 45%;
+    --warning: 45 80% 55%;
+    --error: 0 70% 55%;
+    --info: 200 60% 55%;
 
     /* UI Elements */
-    --border: 120 100% 25%;
-    --input: 120 100% 25%;
-    --ring: 120 100% 40%;
+    --border: 200 20% 35%;
+    --input: 200 20% 35%;
+    --ring: 168 40% 54%;
     --radius: 1.5rem;
 
     /* Transitions */
@@ -65,12 +65,12 @@
   }
 
   .dark {
-    --background: 120 10% 3%;
-    --foreground: 120 100% 50%;
-    --card: 120 10% 7%;
-    --card-foreground: 120 100% 50%;
-    --border: 120 100% 20%;
-    --input: 120 100% 20%;
+    --background: 200 30% 15%;
+    --foreground: 0 0% 96%;
+    --card: 200 25% 20%;
+    --card-foreground: 0 0% 96%;
+    --border: 200 20% 30%;
+    --input: 200 20% 30%;
   }
 }
 
