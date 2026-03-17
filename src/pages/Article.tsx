@@ -102,7 +102,7 @@ const Article = () => {
                 )}
 
                 {/* Horizontal Rule */}
-                <hr className="my-10 sm-590:my-[60px] mx-auto h-px border-0 border-t border-black w-full" />
+                <hr className="my-10 sm-590:my-[60px] mx-auto h-px border-0 border-t border-foreground w-full" />
               </div>
             </div>
 
