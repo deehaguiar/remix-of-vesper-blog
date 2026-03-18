@@ -9,7 +9,7 @@
 @layer base {
   :root {
     /* Base Colors - Kindred Warm Theme */
-    --background: 0 0% 4%; /* Black */
+    --background: 220 60% 15%; /* Dark Blue */
     --foreground: 0 0% 96%; /* White */
 
     /* Card Colors */
